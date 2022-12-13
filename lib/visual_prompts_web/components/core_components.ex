@@ -210,8 +210,8 @@ defmodule VisualPromptsWeb.CoreComponents do
       <.button phx-click="go" class="ml-2">Send!</.button>
   """
   attr :type, :string, default: nil
-  attr :class, :string, default: nil
   attr :rest, :global, include: ~w(disabled form name value)
+  attr :class, :string, default: nil
 
   slot :inner_block, required: true
 
@@ -227,6 +227,46 @@ defmodule VisualPromptsWeb.CoreComponents do
       {@rest}
     >
       <%= render_slot(@inner_block) %>
+    </button>
+    """
+  end
+
+  @doc """
+  Renders a style card.
+
+  ## Examples
+
+      <.style_card
+        phx-click="go"
+        image="/images/styles/2049463893_a_red_apple_in_the_center__abstract_art_style.png"
+        title="Abstract art"
+      />
+  """
+  attr :title, :string, default: nil
+  attr :image, :string, default: nil
+  attr :type, :string, default: nil
+  attr :rest, :global, include: ~w(disabled form name value)
+
+  def style_card(assigns) do
+    ~H"""
+    <button
+      type={@type}
+      class="item grid place-content-center w-full h-full bg-slate-100 rounded-xl relative group overflow-hidden drop-shadow-lg"
+      {@rest}
+    >
+      <div class="absolute inset-0 w-full h-full rounded-xl bg-gradient-to-r from-purple-400 to-pink-600 z-0">
+        <img
+          src={@image}
+          alt="Modern Art Style"
+          class="w-full h-full object-cover transition duration-300 ease-in-out transform-scale group-hover:scale-110"
+        />
+      </div>
+
+      <div class="bg-white p-2 z-10 group-hover:opacity-0 transition-opacity duration-150 ease-in-out">
+        <div class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600">
+          <%= @title %>
+        </div>
+      </div>
     </button>
     """
   end

@@ -1,0 +1,54 @@
+{
+    "styles": [
+        {
+            "name": "Abstract art",
+            "description": "Characterized by the use of geometric shapes, lines, and colors to create compositions that do not represent specific objects or scenes.",
+            "image": "/images/styles/2049463893_a_red_apple_in_the_center__abstract_art_style.png"
+        },
+        {
+            "name": "Realism",
+            "description": "Seeks to accurately depict the world as it appears in reality.",
+            "image": "/images/styles/146638268_a_red_apple_in_the_center__realism_art_style.png"
+        },
+        {
+            "name": "Impressionism",
+            "description": "Characterized by the use of loose brushstrokes and a focus on the effects of light on objects.",
+            "image": "/images/styles/3021263867_a_red_apple_in_the_center__impressionism_art_style.png"
+        },
+        {
+            "name": "Expressionism",
+            "description": "Emphasizes the emotions and inner states of the artist, often using distorted or exaggerated forms to convey these feelings.",
+            "image": "/images/styles/1996924734_a_red_apple_in_the_center__expressionism_art_style.png"
+        },
+        {
+            "name": "Surrealism",
+            "description": "Seeks to express the unconscious mind through dreamlike imagery and unexpected combinations of objects and elements.",
+            "image": "/images/styles/1178739693_a_red_apple_in_the_center__surrealism_art_style.png"
+        },
+        {
+            "name": "Pop art",
+            "description": "Incorporates elements of popular culture and mass media into the artwork.",
+            "image": "/images/styles/3416800095_a_red_apple_in_the_center__pop_art_style.png"
+        },
+        {
+            "name": "Minimalism",
+            "description": "Characterized by the use of simple, geometric forms and a focus on essential elements.",
+            "image": "/images/styles/969685778_a_red_apple_in_the_center__minimalism_art_style.png"
+        },
+        {
+            "name": "Futurism",
+            "description": "Celebrates the machines and technology of the modern world, often depicting scenes of speed and motion.",
+            "image": "/images/styles/1117121618_a_red_apple_in_the_center__futurism_art_style.png"
+        },
+        {
+            "name": "Cubism",
+            "description": "Characterized by the use of geometric shapes and the fragmentation of objects into geometric forms.",
+            "image": "/images/styles/1891420396_a_red_apple_in_the_center__cubism_art_style.png"
+        },
+        {
+            "name": "Fauvism",
+            "description": "Characterized by the use of bold, bright colors and the distortion of form for expressive effect",
+            "image": "/images/styles/1195082908_a_red_apple_in_the_center__fauvism_art_style.png"
+        }
+    ]
+}
